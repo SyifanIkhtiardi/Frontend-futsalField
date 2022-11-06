@@ -13,9 +13,7 @@
     "serve-static": "^1.15.0",
     "vue": "^3.2.13",
     "vue-axios": "^3.5.0",
-    "vue-router": "^4.0.3",
-    "postinstall": "npm run build",
-    "start": "node server.js"
+    "vue-router": "^4.0.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -31,5 +29,7 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "postinstall": "npm run build",
+  "start": "node server.js"
 }
